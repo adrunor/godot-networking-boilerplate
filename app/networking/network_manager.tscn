@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxr52fw8dgrt7"]
+
+[ext_resource type="Script" path="res://app/networking/network_manager.gd" id="1_rs5r6"]
+
+[node name="NetworkManager" type="Node"]
+process_mode = 4
+physics_interpolation_mode = 2
+script = ExtResource("1_rs5r6")
